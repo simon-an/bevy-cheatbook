@@ -7,6 +7,7 @@ number of folks have made large contributions to help! Thank you all so much! ‚ù
 
 ---
 
+ - Original Author: `Ida Iyes`
  - Alice I. Cecile `@alice-i-cecile`: review, advice, reporting lots of good suggestions
  - nile `@TheRawMeatball`: review, useful issue reports
  - `@Zaszi`: writing the initial draft of the WASM chapter

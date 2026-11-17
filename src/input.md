@@ -27,9 +27,9 @@ The following notable input devices are ***not*** supported:
 For most input types (where it makes sense), Bevy provides two ways of
 dealing with them:
   - by checking the current state via [resources][cb::res] ([input resources][builtins::res-input]),
-  - or via [events][cb::event] ([input events][builtins::event-input]).
+  - or via [messages][cb::message] ([input messages][builtins::message-input]).
 
-Some inputs are only provided as events.
+Some inputs are only provided as messages.
 
 Checking state is done using [resources][cb::res] such as [`ButtonInput`] (for
 binary inputs like keys or buttons), [`Axis`] (for analog inputs), [`Touches`]
@@ -39,7 +39,7 @@ only care about the specific inputs mapped to actions in your game. You can
 check specific buttons/keys to see when they get pressed/released, or what
 their current state is.
 
-[Events][cb::event] ([input events][builtins::event-input]) are a lower-level,
+[Events][cb::message] ([input messages][builtins::message-input]) are a lower-level,
 more all-encompassing approach. Use them if you want to get all activity
 from that class of input device, rather than only checking for specific inputs.
 
@@ -57,8 +57,8 @@ and unlikely to suit all games, but if it works for you, it is very high quality
 It may be a good idea to build your own abstractions specific to your
 game. For example, if you need to handle player movement, you might want to
 have a system for reading inputs and converting them to your own internal
-"movement intent/action events", and then another system acting on those
-custom events, to actually move the player. Make sure to use [explicit
+"movement intent/action messages", and then another system acting on those
+custom messages, to actually move the player. Make sure to use [explicit
 system ordering][cb::system-order] to avoid lag / frame delays.
 
 ## Run Conditions

@@ -42,7 +42,7 @@
 [`Bundle`]: https://docs.rs/bevy/0.14/bevy/ecs/bundle/trait.Bundle.html
 [`Bundles`]: https://docs.rs/bevy/0.14/bevy/ecs/bundle/struct.Bundles.html
 [`ButtonBundle`]: https://docs.rs/bevy/0.14/bevy/ui/node_bundles/struct.ButtonBundle.html
-[`Button`]: https://docs.rs/bevy/0.14/bevy/ui/widget/struct.Button.html
+[`Button`]: https://docs.rs/bevy/0.14/bevy/ui_widgets/struct.Button.html
 [`ButtonInput`]: https://docs.rs/bevy/0.14/bevy/input/struct.ButtonInput.html
 [`ButtonState`]: https://docs.rs/bevy/0.14/bevy/input/enum.ButtonState.html
 [`Camera2dBundle`]: https://docs.rs/bevy/0.14/bevy/core_pipeline/core_2d/struct.Camera2dBundle.html

@@ -111,7 +111,7 @@
   - [Bundles](./programming/bundle.md)
   - [Queries](./programming/queries.md)
   - [Commands](./programming/commands.md)
-  - [Events](./programming/events.md)
+  - [Messages](./programming/messages.md)
   - [Plugins](./programming/plugins.md)
   - [Local Resources](./programming/local.md)
   - [Exclusive Systems](./programming/exclusive.md)
@@ -131,7 +131,7 @@
 - [Programming Patterns](./patterns.md)
   - [Generic Systems](./patterns/generic-systems.md)
   - [Component Storage (Table/Sparse-Set)](./patterns/component-storage.md)
-  - [Manual Event Clearing](./patterns/manual-event-clear.md)
+  - [Manual Message Clearing](./patterns/manual-message-clear.md)
   - [Writing Tests for Systems](./patterns/system-tests.md)
 
 - [Bevy Render (GPU) Framework](./gpu.md)

@@ -157,5 +157,5 @@ as during a pause state, you will miss any events that are sent while when
 the receiving systems are not running!
 
 To mitigate this, you could implement a [custom cleanup
-strategy][cb::event-manual], to manually manage the lifetime of the relevant
+strategy][cb::message-manual], to manually manage the lifetime of the relevant
 event types.

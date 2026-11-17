@@ -40,7 +40,7 @@ if all of them return `true`.
 Bevy provides some built-in RCs for some common scenarios, that you can just
 apply to your systems:
  - [ECS common conditions][bevy::ecs::common_conditions]:
-   - For checking [states][cb::state], [resource][cb::res] values and [changes][cb::change-detection], [events][cb::event], if [entities][cb::ecs-intro-data] with specific [components][cb::component] exist, etc...
+   - For checking [states][cb::state], [resource][cb::res] values and [changes][cb::change-detection], [messages][cb::message], if [entities][cb::ecs-intro-data] with specific [components][cb::component] exist, etc...
  - [Input common conditions][bevy::input::common_conditions]:
    - For [input handling][chapter::input]: running on key/button press/release.
  - [Time common conditions][bevy::time::common_conditions]:
@@ -48,10 +48,10 @@ apply to your systems:
 
 ## Known Pitfalls
 
-When receiving [events][cb::event] in systems that don't run every frame
-update, you can miss some events that are sent while the receiving systems
+When receiving [messages][cb::message] in systems that don't run every frame
+update, you can miss some messages that are sent while the receiving systems
 are not running!
 
 To mitigate this, you could implement a [custom cleanup
-strategy][cb::event-manual], to manually manage the lifetime of the relevant
+strategy][cb::message-manual], to manually manage the lifetime of the relevant
 event types.

@@ -33,7 +33,7 @@
 [`ButtonBundle`]: https://docs.rs/bevy/0.13/bevy/ui/node_bundles/struct.ButtonBundle.html
 [`ButtonInput`]: https://docs.rs/bevy/0.13/bevy/input/struct.ButtonInput.html
 [`ButtonState`]: https://docs.rs/bevy/0.13/bevy/input/enum.ButtonState.html
-[`Button`]: https://docs.rs/bevy/0.13/bevy/ui/widget/struct.Button.html
+[`Button`]: https://docs.rs/bevy/0.13/bevy/ui_widgets/struct.Button.html
 [`Camera2dBundle`]: https://docs.rs/bevy/0.13/bevy/core_pipeline/core_2d/struct.Camera2dBundle.html
 [`Camera2d`]: https://docs.rs/bevy/0.13/bevy/core_pipeline/core_2d/struct.Camera2d.html
 [`Camera3dBundle`]: https://docs.rs/bevy/0.13/bevy/core_pipeline/core_3d/struct.Camera3dBundle.html

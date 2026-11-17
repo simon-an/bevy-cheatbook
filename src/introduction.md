@@ -23,7 +23,7 @@ resource to you!
 ***Welcome! May this book serve you well!***
 
 (don't forget to
-<a class="github-button" href="https://github.com/bevy-cheatbook/bevy-cheatbook" data-icon="octicon-star" aria-label="Star bevy-cheatbook/bevy-cheatbook on GitHub">Star</a>
+<a class="github-button" href="https://github.com/simon-an/bevy-cheatbook" data-icon="octicon-star" aria-label="Star simon-an/bevy-cheatbook on GitHub">Star</a>
 the book's [GitHub repository][project::cb],
 and consider [donating](https://github.com/sponsors/inodentry) 🙂)
 
@@ -63,8 +63,7 @@ or [Bevy Assets][bevyassets::games].
 
 ## Is this book up to date?
 
-This book is no longer maintained. Much of the information in it is outdated and
-possibly not relevant to the current version of Bevy. Consult Bevy's [official
+This book is going to be up tp date soon (Dezember 2026). Always Consult Bevy's [official
 website](https://bevy.org) for documentation and migration guides.
 
 At the top of every page, you will see the version it was last updated for.
@@ -86,15 +85,6 @@ warned!
 If you like the Bevy Game Engine, you should consider donating to the project.
 
 You can do that via the [Bevy Foundation][bevy::foundation].
-
-## Support Me
-
-I no longer maintain this book or actively work on anything Bevy-related.
-However, if you like the book and would like to send me a tip for having done
-this in the past, my sponsor links are still open.
-
-<a href="https://github.com/sponsors/inodentry"><button class="ghsponsors-button">GitHub Sponsors</button></a>
-<a href="bitcoin:bc1qaf32uqsg6mngw9g4aqc3l2jvuv46qx0zw2438p"><button class="bitcoin-button">Bitcoin</button></a>
 
 ## License
 

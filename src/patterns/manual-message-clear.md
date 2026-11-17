@@ -1,6 +1,6 @@
 {{#include ../include/header09.md}}
 
-# Manual Event Clearing
+# Manual Message Clearing. This needs clarification, if this is still true. Time of writing was 0.09
 
 The [event][cb::event] queue needs to be cleared periodically,
 so that it does not grow indefinitely and waste unbounded memory.

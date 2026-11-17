@@ -21,8 +21,7 @@
 [bevy::blog::0.14]: https://bevyengine.org/news/bevy-0-14
 [bevy::blog::0.15]: https://bevyengine.org/news/bevy-0-15
 [bevy::blog::0.16]: https://bevyengine.org/news/bevy-0-16
-[bevy::blog::0.6]: https://bevyengine.org/news/bevy-0-6
-[bevy::blog::0.9]: https://bevyengine.org/news/bevy-0-9
+[bevy::blog::0.20]: https://bevyengine.org/news/bevy-0-20
 [bevy::contributing]: https://bevyengine.org/learn/contribute/introduction/
 [bevy::discord]: https://discord.gg/bevy
 [bevy::examples]: https://github.com/bevyengine/bevy/tree/latest/examples#examples
@@ -43,9 +42,6 @@
 [bevy::system-test]: https://github.com/bevyengine/bevy/blob/main/tests/how_to_test_systems.rs
 [bevy::website]: https://bevyengine.org
 [cargo::9994]: https://github.com/rust-lang/cargo/issues/9994
-[cb::1]: https://github.com/bevy-cheatbook/bevy-cheatbook/pull/1
-[cb::64]: https://github.com/bevy-cheatbook/bevy-cheatbook/pull/64
-[cb::cookbook::2]: https://github.com/bevy-cheatbook/bevy-cookbook/pull/2
 [docs::async-channel]: https://docs.rs/async-channel/latest/async_channel/
 [docs::crossbeam]: https://docs.rs/crossbeam/latest/crossbeam/
 [ghpages::docs]: https://docs.github.com/en/pages
@@ -74,8 +70,8 @@
 [project::binaryen]: https://github.com/WebAssembly/binaryen
 [project::blender]: https://www.blender.org/
 [project::blenvy]: https://github.com/kaosat-dev/Blenvy
-[project::cb]: https://github.com/bevy-cheatbook/bevy-cheatbook
-[project::cb::issues]: https://github.com/bevy-cheatbook/bevy-cheatbook/issues
+[project::cb]: https://github.com/simon-an/bevy-cheatbook
+[project::cb::issues]: https://github.com/simon-an/bevy-cheatbook/issues
 [project::console_error_panic_hook]: https://github.com/rustwasm/console_error_panic_hook
 [project::create-dmg]: https://github.com/create-dmg/create-dmg
 [project::dxc::download]: https://github.com/microsoft/DirectXShaderCompiler/releases/latest

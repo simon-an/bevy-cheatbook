@@ -114,7 +114,7 @@ project.
  - [Programming Patterns][chapter::patterns]
    - [Write tests for systems][cb::system-tests]
    - [Generic Systems][cb::system-generic]
-   - [Manual Event Clearing][cb::event-manual]
+   - [Manual Message Clearing][cb::message-manual]
  - [Window Management][chapter::window]
    - [Grab/Capture the Mouse Cursor][cookbook::mouse-grab]
    - [Set the Window Icon][cookbook::window-icon]

@@ -1,8 +1,8 @@
 [book]
-authors = ["Ida Iyes"]
+authors = ["Ida Iyes", "Simon"]
 language = "en"
 src = "src"
 title = "Unofficial Bevy Cheat Book"
 
 [output.html]
-edit-url-template = "https://github.com/bevy-cheatbook/bevy-cheatbook/issues/new"
+edit-url-template = "https://github.com/simon-an/bevy-cheatbook/issues/new"

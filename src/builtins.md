@@ -1,4 +1,4 @@
-{{#include ./include/header011.md}}
+{{#include ./include/header020.md}}
 
 # List of Bevy Builtins
 
@@ -21,9 +21,9 @@ by Bevy.
    - [Render World](#render-world-resources)
    - [Low-Level `wgpu` access](#low-level-wgpu-resources)
  - [Resources (Input)](#input-handling-resources)
- - [Events (Input)](#input-events)
- - [Events (Engine)](#engine-events)
- - [Events (System/Control)](#system-and-control-events)
+ - [Message (Input)](#input-message)
+ - [Message (Engine)](#engine-message)
+ - [Message (System/Control)](#system-and-control-message)
  - [Components](#components)
 
 ## SystemParams
@@ -137,28 +137,28 @@ These resources represent the current state of different input devices. Read the
 
 {{#include ./include/builtins.md:resources-input}}
 
-## Events
+## Messages
 
-[(more info about working with events)][cb::event]
+[(more info about working with messages)][cb::message]
 
-### Input Events
+### Input Message
 
-These [events][cb::event] fire on activity with input devices. Read them to [handle user input][cb::input].
+These [messages][cb::message] fire on activity with input devices. Read them to [handle user input][cb::input].
 
-{{#include ./include/builtins.md:events-input}}
+{{#include ./include/builtins.md:messages-input}}
 
-### Engine Events
+### Engine Message
 
-[Events][cb::event] related to various internal things happening during the
+[Message][cb::message] related to various internal things happening during the
 normal runtime of a Bevy app.
 
-{{#include ./include/builtins.md:events-engine}}
+{{#include ./include/builtins.md:messages-engine}}
 
-### System and Control Events
+### System and Control Message
 
-Events from the OS / windowing system, or to control Bevy.
+Message from the OS / windowing system, or to control Bevy.
 
-{{#include ./include/builtins.md:events-system}}
+{{#include ./include/builtins.md:messages-system}}
 
 ## Components
 

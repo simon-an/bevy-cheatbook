@@ -1,6 +1,6 @@
 # Unofficial Bevy Cheat Book
 
-[Click here to read the book!](https://bevy-cheatbook.github.io)
+[Click here to read the book!](https://simon-anbevy-cheatbook.github.io)
 
 Concise practical reference to the Bevy game engine.
 
@@ -9,18 +9,6 @@ game development tasks.
 
 Designed to be easy to read, straight to the point, using simple language to
 focus on the important information.
-
-## Support Me
-
-If you like this book, please consider supporting me via
-[GitHub Sponsors](https://github.com/sponsors/inodentry),
-[Patreon](https://patreon.com/iyesgames),
-[Bitcoin](bitcoin:bc1qaf32uqsg6mngw9g4aqc3l2jvuv46qx0zw2438p).
-
-I'd like to keep improving and maintaining this book, to provide a high-quality
-independent learning resource for the Bevy community.
-
-Your donation helps me work on such freely-available content. Thank you! ❤️
 
 ## License
 

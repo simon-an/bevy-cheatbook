@@ -1,9 +1,9 @@
 [builtins::asset]: /builtins.md#assets
 [builtins::bundle]: /builtins.md#bundles
 [builtins::component]: /builtins.md#components
-[builtins::event]: /builtins.md#events
-[builtins::event-input]: /builtins.md#input-events
-[builtins::event-sys]: /builtins.md#system-and-control-events
+[builtins::message]: /builtins.md#messages
+[builtins::message-input]: /builtins.md#input-messages
+[builtins::message-sys]: /builtins.md#system-and-control-events
 [builtins::file-formats]: /builtins.md#file-formats
 [builtins::gltf-assetlabel]: /builtins.md#gltf-asset-labels
 [builtins::plugin]: /builtins.md#plugins
@@ -60,8 +60,8 @@
 [cb::ecs-intro-data]: /programming/intro-data.md
 [cb::ecs-intro]: /programming/ecs-intro.md
 [cb::entity]: /programming/ec.md#entities
-[cb::event-manual]: /patterns/manual-event-clear.md
-[cb::event]: /programming/events.md
+[cb::message-manual]: /patterns/manual-message-clear.md
+[cb::message]: /programming/messages.md
 [cb::exclusive]: /programming/exclusive.md
 [cb::features]: /setup/bevy-config.md
 [cb::fixedtimestep]: /fundamentals/fixed-timestep.md
